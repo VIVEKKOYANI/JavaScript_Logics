@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculate Length of Array without using length.</title>
+</head>
+<body>
+
+</body>
+<script>
+    var a = [10, 40, 60, 70];
+    console.log(a.length);
+
+    console.log(a[0]);
+    console.log(a[5]);
+
+    let c = [50, 67, 89, 90];
+    function arryLength(s){
+        var length = 0;
+        while(s[length] !== undefined){
+            length++;
+        }
+        return length
+    }
+    console.log("sss", arryLength(c));
+</script>
+</html>
