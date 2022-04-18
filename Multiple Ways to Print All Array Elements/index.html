@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Print All Array Elements.</title>
+</head>
+<body>
+
+</body>
+<script>
+    var a = [10, 40, 60, 70];
+
+    for(var i=0; i<a.length; i++){
+        console.log("At Index" + i + "----" + a[i])
+    }
+
+    var s = new Array();
+    s[0] = "ram";
+    s[0] = "rehana";
+    s[0] = "Akhil";
+    s[0] = "Karthik";
+
+    for(var i=0; i < s.length; i++){
+        console.log("ss", s[i]);
+    }
+
+    let colors = ["red", "green", "blue"];
+
+    for(let a in colors){
+        console.log("colors", colors[a]);
+    }
+
+    let c = ["red", "green", "blue", "Yellow"];
+
+    c.forEach(function (a, index){
+        console.log("a",a);
+    })
+
+    let y = ["red", "green", "blue", "Yellow"];
+
+    for(let a of y){
+        console.log("aaaa", a);
+    }
+ 
+</script>
+</html>
