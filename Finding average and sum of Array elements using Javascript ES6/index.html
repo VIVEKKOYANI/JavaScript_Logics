@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Finding average and sum of Array Elements.</title>
+</head>
+<body>
+
+</body>
+<script>
+   var nums = [10,20, 40, 50];
+   var l =  nums.length;
+   var totalSum = 0;
+   for(var i =0; i < nums.length; i++){
+       totalSum += nums[i];
+       console.log("nums",nums[0]);
+   }
+    console.log("totalSum",totalSum);
+
+    var avg = totalSum / l ;
+    console.log("avg", avg);
+
+    var numbers = [1 ,2,3,4,5];
+    console.log("numbrs", numbers.reduce(myfunc));
+
+    function myfunc(total, num){
+        console.log("total, num",total, num);
+        return total + num;
+    }
+
+    const list = [10, 20, 30, 40, 50];
+
+    const av = sss => list.reduce((prev, curr) =>
+     prev + curr)/ sss.length;
+     console.log("sss.length", list.length);
+
+    console.log("ad", av(list));
+
+</script>
+</html>
